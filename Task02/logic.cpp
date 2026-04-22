@@ -17,5 +17,5 @@ int sum_main_and_second_diagonales_elements(int matrix[DEFAULT_SIZE][DEFAULT_SIZ
 			total_sum += matrix[i][n - 1 - i];
 		}
 	}
-	retrun total_sum;
+	return total_sum;
 }
